@@ -1,0 +1,4 @@
+#! /bin/bash
+notify-send "Starting update process..."
+sudo apt autoremove && sudo apt update && sudo apt upgrade && sudo apt purge && sudo apt clean && sudo apt autoremove
+notify-send "Update finished."
